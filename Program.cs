@@ -6,7 +6,12 @@ namespace FindIndexOfArray
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] arrayy = { -8, 2, 6, 2, -5, 4, 1 }; 
+
+            for (int i = 0; i < arrayy.Length; i++)
+            {
+                Console.Write(arrayy[i] + " ");
+            }
         }
     }
 }
